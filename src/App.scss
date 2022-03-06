@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+}
+
+.Container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@import "../src/components/Header/Header";
+@import "../src/components/Header/Nav/Nav";
+@import "../src/components/Header/Logo/Logo";

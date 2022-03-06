@@ -14,7 +14,6 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          Hello Worls
         </a>
       </header>
     </div>

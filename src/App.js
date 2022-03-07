@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import About from "./components/About/About";
 import "./App.scss";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
               <Route path="/about" element={<About />} />
             </Routes>
           </div>
+          <Footer />
         </div>
       </div>
     </Router>

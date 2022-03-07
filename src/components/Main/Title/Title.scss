@@ -8,11 +8,28 @@
 .SectionTitleH1 {
 }
 .SectionBlockH2 {
-  text-align: left;
+  text-align: right;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
   color: #074205;
+  padding-right: 120px;
 }
 .SectionTitleH2 {
+}
+
+@media (max-width: 768px) {
+  .SectionBlockH1 {
+    font-size: 34px;
+    line-height: 40px;
+    color: #1d8019;
+  }
+  .SectionBlockH2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #074205;
+    padding-right: 0;
+  }
 }

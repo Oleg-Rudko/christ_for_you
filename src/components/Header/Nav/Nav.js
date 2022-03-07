@@ -19,7 +19,7 @@ const Nav = () => {
         </li>
         <li className="NavItems">
           <Link
-            to="#"
+            to="/about"
             name="about"
             onClick={(e) => setActive(e.currentTarget.name)}
             className={`NavLinks ${active === "about" ? "Active" : ""}`}
@@ -29,7 +29,7 @@ const Nav = () => {
         </li>
         <li className="NavItems">
           <Link
-            to="#"
+            to="/contacts"
             name="contacts"
             onClick={(e) => setActive(e.currentTarget.name)}
             className={`NavLinks ${active === "contacts" ? "Active" : ""}`}
@@ -39,7 +39,7 @@ const Nav = () => {
         </li>
         <li className="NavItems">
           <Link
-            to="/"
+            to="/tracts"
             name="tracts"
             onClick={(e) => setActive(e.currentTarget.name)}
             className={`NavLinks ${active === "tracts" ? "Active" : ""}`}

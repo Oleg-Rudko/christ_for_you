@@ -3,7 +3,7 @@ import {
   questionsMenuOne,
   questionsMenuTwo,
   questionsMenuThree,
-} from "../../../constants";
+} from "../../../../constants";
 
 const Questions = () => {
   return (

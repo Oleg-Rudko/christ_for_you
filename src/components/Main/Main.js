@@ -3,9 +3,9 @@ import Title from "./Title/Title";
 
 const Main = () => {
   return (
-    <div>
+    <section className="Section">
       <Title />
-    </div>
+    </section>
   );
 };
 

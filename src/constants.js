@@ -49,4 +49,3 @@ export const questionsMenuThree = [
     question: "Чому Біблія - найвпливовіша книги у Світі?",
   },
 ];
-

@@ -23,11 +23,6 @@ const Nav = () => {
             Листівки
           </a>
         </li>
-        <li className="NavItemsFreeBible">
-          <a href="/" className="NavLinksFreeBible">
-            Безкоштовний Новий Завіт
-          </a>
-        </li>
       </ul>
     </nav>
   );

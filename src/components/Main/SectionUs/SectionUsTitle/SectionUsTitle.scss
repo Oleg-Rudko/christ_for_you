@@ -1,0 +1,48 @@
+.UsTitle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #074205;
+  gap: 15px;
+  &:before {
+    display: block;
+    content: "";
+    width: 480px;
+    border: 1px solid #c6cdc5;
+  }
+  &:after {
+    display: block;
+    content: "";
+    width: 480px;
+    border: 1px solid #c6cdc5;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 468px) {
+  .UsTitle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #074205;
+    gap: 10px;
+    &:before {
+      display: block;
+      content: "";
+      width: 90px;
+      border: 1px solid #c6cdc5;
+    }
+    &:after {
+      display: block;
+      content: "";
+      width: 90px;
+      border: 1px solid #c6cdc5;
+    }
+  }
+}

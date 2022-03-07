@@ -30,6 +30,11 @@
   }
 }
 @media (max-width: 768px) {
+  .HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .NavHidden {
     display: none;
   }

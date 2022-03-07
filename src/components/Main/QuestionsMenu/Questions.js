@@ -1,17 +1,33 @@
 import React from "react";
-import { questionsMenuOne } from "../../ConstantsForQuestionsMenu/QuestionsMenuOne";
-// import { questionsMenuTwo } from "../../ConstantsForQuestionsMenu/QuestionsMenuTwo";
-// import { questionsMenuThree } from "../../ConstantsForQuestionsMenu/QuestionsMenuThree";
+import {
+  questionsMenuOne,
+  questionsMenuTwo,
+  questionsMenuThree,
+} from "../../../constants";
 
 const Questions = () => {
   return (
     <div className="QuestionsMenuFlex">
       <ul className="QuestionsMenu">
-        <li>
-          {questionsMenuOne.map((el) => (
-            <a>{el.question}</a>
-          ))}
-        </li>
+        {questionsMenuOne.map(({ question }, idx) => (
+          <li key={idx}>
+            <a>{question}</a>
+          </li>
+        ))}
+      </ul>
+      <ul>
+        {questionsMenuTwo.map(({ question }, idx) => (
+          <li key={idx}>
+            <a>{question}</a>
+          </li>
+        ))}
+      </ul>
+      <ul>
+        {questionsMenuThree.map(({ question }, idx) => (
+          <li key={idx}>
+            <a>{question}</a>
+          </li>
+        ))}
       </ul>
     </div>
   );

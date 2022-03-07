@@ -1,10 +1,11 @@
 import React from "react";
+import Title from "./Title/Title";
 
 const Main = () => {
   return (
-    <div>
-      <p>Main</p>
-    </div>
+    <section className="Section">
+      <Title />
+    </section>
   );
 };
 

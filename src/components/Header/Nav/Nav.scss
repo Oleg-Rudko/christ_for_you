@@ -1,0 +1,30 @@
+.Nav {
+}
+.NavMenu {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+  padding-right: 84px;
+}
+.NavItems {
+}
+.NavLinks {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+}
+.Active {
+  position: relative;
+  font-weight: 500;
+}
+.Active:after {
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  display: block;
+  height: 2px;
+  content: "";
+  background-color: #000;
+}

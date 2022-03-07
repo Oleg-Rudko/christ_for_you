@@ -1,27 +1,29 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 const Nav = () => {
   return (
     <nav className="Nav">
       <ul className="NavMenu">
         <li className="NavItems">
-          <a href="/" className="NavLinks Active">
+          <NavLink to="/" className="NavLinks Active">
             Головна
-          </a>
+          </NavLink>
         </li>
         <li className="NavItems">
-          <a href="/" className="NavLinks">
+          <NavLink to="/" className="NavLinks">
             Хто Ми?
-          </a>
+          </NavLink>
         </li>
         <li className="NavItems">
-          <a href="/" className="NavLinks">
+          <NavLink to="/" className="NavLinks">
             Контакти
-          </a>
+          </NavLink>
         </li>
         <li className="NavItems">
-          <a href="/" className="NavLinks">
+          <NavLink to="/" className="NavLinks">
             Листівки
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

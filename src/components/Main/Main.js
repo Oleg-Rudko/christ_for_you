@@ -5,8 +5,10 @@ import Title from "./Title/Title";
 const Main = () => {
   return (
     <section className="Section">
-      <Title />
-      <Questions />
+      <div className="SectionContainer">
+        <Title />
+        <Questions />
+      </div>
     </section>
   );
 };

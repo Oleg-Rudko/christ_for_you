@@ -8,8 +8,8 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <Router>
-      <div className="App">
-        <div className="Container">
+      <div className="Wrapper">
+        <div className="App">
           <Header />
           <div>
             <Routes>

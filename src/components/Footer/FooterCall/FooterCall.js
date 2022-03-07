@@ -1,11 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CallSvg from "./FooterIcons/FooterIconCall.svg";
 const FooterCall = () => {
   return (
     <div className="FooterCallBlock">
-      <Link className="FooterCallNumber" to="/">
-        Дізнатись номер
-      </Link>
+      <a href="/" className="FooterCallNumber">
+        <img
+          width="22px"
+          height="22px"
+          className="CallIconSvg"
+          src={CallSvg}
+          alt="CallIconSvg"
+        ></img>
+        Дізнатись телефон
+      </a>
     </div>
   );
 };

@@ -1,7 +1,17 @@
 .FooterCallBlock {
   display: inline-block;
-  width: 310px;
+  background: #246522;
+  padding: 14px 68px;
 }
 .FooterCallNumber {
-  padding: 14px 68px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.CallIconSvg {
+  padding-right: 15px;
 }

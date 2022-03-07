@@ -6,9 +6,11 @@ import FooterCopyright from "./FooterCopyright/FooterCopyright";
 const Footer = () => {
   return (
     <footer className="Footer">
-      <FooterCall />
-      <FooterSocial />
-      <FooterCopyright />
+      <div className="FooterContainer">
+        <FooterCall />
+        <FooterSocial />
+        <FooterCopyright />
+      </div>
     </footer>
   );
 };

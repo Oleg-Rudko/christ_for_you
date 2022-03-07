@@ -1,15 +1,11 @@
 import React from "react";
-import Questions from "./QuestionsMenu/Questions";
-import Title from "./Title/Title";
-import CallBack from "./CallBack/CallBack";
+import SectionMain from "./SectionMain/SectionMain";
 
 const Main = () => {
   return (
     <section className="Section">
       <div className="SectionContainer">
-        <Title />
-        <Questions />
-        <CallBack />
+        <SectionMain />
       </div>
     </section>
   );

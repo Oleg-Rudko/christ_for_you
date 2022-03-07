@@ -1,4 +1,4 @@
-import CallBackIcon from "../../Footer/FooterCall/FooterIcons/FooterIconCall.svg";
+import CallBackIcon from "../../../Footer/FooterCall/FooterIcons/FooterIconCall.svg";
 const CallBack = () => {
   return (
     <div>

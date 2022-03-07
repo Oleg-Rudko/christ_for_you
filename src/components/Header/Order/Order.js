@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
 const Order = () => {
   return (
     <div className="Order">
-      <a className="OrderLink">Безкоштовний Новий Завіт</a>
+      <Link to="/" className="OrderLink">
+        Безкоштовний Новий Завіт
+      </Link>
     </div>
   );
 };

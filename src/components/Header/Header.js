@@ -7,15 +7,17 @@ import Hamburger from "./HamburgerMenu/HamburgerMenu";
 const Header = () => {
   return (
     <header className="Header">
-      <Logo />
-      <div className="NavHidden">
-        <Nav />
-      </div>
-      <div className="OrderHidden">
-        <Order />
-      </div>
-      <div className="HamburgerHidden">
-        <Hamburger />
+      <div className="HeaderContainer">
+        <Logo />
+        <div className="NavHidden">
+          <Nav />
+        </div>
+        <div className="OrderHidden">
+          <Order />
+        </div>
+        <div className="HamburgerHidden">
+          <Hamburger />
+        </div>
       </div>
     </header>
   );

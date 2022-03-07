@@ -1,3 +1,31 @@
 .Footer {
-  padding: 40px 0;
+  width: 100%;
+  background: #012400;
+}
+.FooterContainer {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 40px 30px;
+}
+
+@media (max-width: 768px) {
+  .FooterContainer {
+    max-width: 708px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 468px) {
+  .FooterContainer {
+    max-width: 428px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .FooterContainer {
+    max-width: 290px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 }

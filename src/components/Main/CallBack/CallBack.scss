@@ -1,9 +1,10 @@
-.FooterCallBlock {
+.CallBackBlock {
   display: inline-block;
   background: #246522;
-  padding: 11.5px 64.5px;
+  padding: 11.5px 96.5px;
+  margin-top: 80px;
 }
-.FooterCallNumber {
+.CallBackNumber {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -12,6 +13,6 @@
   justify-content: center;
   align-items: center;
 }
-.CallIconSvg {
+.CallBackSvg {
   padding-right: 15px;
 }

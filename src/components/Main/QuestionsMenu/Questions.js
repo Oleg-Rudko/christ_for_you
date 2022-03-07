@@ -10,22 +10,28 @@ const Questions = () => {
     <div className="QuestionsMenuFlex">
       <ul className="QuestionsMenu">
         {questionsMenuOne.map(({ question }, idx) => (
-          <li key={idx}>
-            <a>{question}</a>
+          <li className="QuestionMenuItems" key={idx}>
+            <a className="QuestionMenuLinks" href="/">
+              {question}
+            </a>
           </li>
         ))}
       </ul>
       <ul>
         {questionsMenuTwo.map(({ question }, idx) => (
-          <li key={idx}>
-            <a>{question}</a>
+          <li className="QuestionMenuItems" key={idx}>
+            <a className="QuestionMenuLinks" href="/">
+              {question}
+            </a>
           </li>
         ))}
       </ul>
       <ul>
         {questionsMenuThree.map(({ question }, idx) => (
-          <li key={idx}>
-            <a>{question}</a>
+          <li className="QuestionMenuItems" key={idx}>
+            <a className="QuestionMenuLinks" href="/">
+              {question}
+            </a>
           </li>
         ))}
       </ul>

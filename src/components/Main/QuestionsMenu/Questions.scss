@@ -1,4 +1,33 @@
 .QuestionsMenuFlex {
+  display: flex;
+  max-width: 1104px;
+  padding: 60px 28px 0 28px;
+  gap: 100px;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 .QuestionsMenu {
+}
+.QuestionMenuItems {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px;
+  transition: all 0.3s ease 0s;
+  &:hover {
+    transform: scale(1.2);
+  }
+  &:before {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #cde6cc;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}
+.QuestionMenuLinks {
 }

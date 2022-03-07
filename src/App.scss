@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100%;
+}
+html {
+  height: 100%;
 }
 *,
 :before,
@@ -55,16 +59,5 @@ h6 {
   font-size: inherit;
 }
 .Wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  // Прижимаем footer
-  > main {
-    flex: 1 1 auto;
-  }
-  // Фикс для слайдеров
-  > * {
-    min-width: 0;
-  }
+  min-height: calc(100vh - 130px);
 }

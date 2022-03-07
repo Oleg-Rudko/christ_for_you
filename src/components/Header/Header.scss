@@ -3,3 +3,22 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .NavHidden {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .OrderHidden {
+    display: none;
+  }
+}
+.HamburgerHidden {
+  display: none;
+}
+@media (max-width: 768px) {
+  .HamburgerHidden {
+    display: block;
+  }
+}

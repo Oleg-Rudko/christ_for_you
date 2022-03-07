@@ -2,3 +2,12 @@
   display: inline-block;
   padding-right: 72px;
 }
+@media (max-width: 500px) {
+  .Logo {
+    padding-right: 15px;
+  }
+  .LogoSvg {
+    width: 230px;
+    padding-right: 20px;
+  }
+}

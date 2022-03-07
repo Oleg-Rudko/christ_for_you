@@ -8,8 +8,8 @@ const Hamburger = () => {
     <HamburgerMenu
       isOpen={isOpen}
       menuClicked={() => setIsOpen(!isOpen)}
-      width={18}
-      height={15}
+      width={30}
+      height={18}
       strokeWidth={1}
       rotate={0}
       color="black"

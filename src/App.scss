@@ -22,6 +22,27 @@ a {
   padding: 0 30px;
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  .Container {
+    max-width: 708px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 468px) {
+  .Container {
+    max-width: 428px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .Container {
+    max-width: 300px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
 input,
 button,
 textarea {

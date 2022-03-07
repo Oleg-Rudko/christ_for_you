@@ -8,9 +8,15 @@ const Header = () => {
   return (
     <header className="Header">
       <Logo />
-      <Nav />
-      <Order />
-      <Hamburger />
+      <div className="NavHidden">
+        <Nav />
+      </div>
+      <div className="OrderHidden">
+        <Order />
+      </div>
+      <div className="HamburgerHidden">
+        <Hamburger />
+      </div>
     </header>
   );
 };

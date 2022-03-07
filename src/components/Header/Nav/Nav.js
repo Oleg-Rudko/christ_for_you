@@ -19,7 +19,7 @@ const Nav = () => {
         </li>
         <li className="NavItems">
           <Link
-            to="/about"
+            to="#"
             name="about"
             onClick={(e) => setActive(e.currentTarget.name)}
             className={`NavLinks ${active === "about" ? "Active" : ""}`}
@@ -29,7 +29,7 @@ const Nav = () => {
         </li>
         <li className="NavItems">
           <Link
-            to="/"
+            to="#"
             name="contacts"
             onClick={(e) => setActive(e.currentTarget.name)}
             className={`NavLinks ${active === "contacts" ? "Active" : ""}`}

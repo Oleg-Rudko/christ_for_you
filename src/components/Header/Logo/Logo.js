@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div className="Logo">
       <a href="/" className="LogoLink">
-        <img src={ReactLogo} alt="logo"></img>
+        <img className="LogoSvg" src={ReactLogo} alt="Logo"></img>
       </a>
     </div>
   );

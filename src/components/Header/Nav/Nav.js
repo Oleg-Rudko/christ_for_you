@@ -1,29 +1,51 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const [active, setActive] = useState("main");
+
   return (
     <nav className="Nav">
       <ul className="NavMenu">
         <li className="NavItems">
-          <NavLink to="/" className="NavLinks Active">
+          <Link
+            to="/"
+            className={`NavLinks ${active === "main" ? "Active" : ""}`}
+            name="main"
+            onClick={(e) => setActive(e.currentTarget.name)}
+          >
             Головна
-          </NavLink>
+          </Link>
         </li>
         <li className="NavItems">
-          <NavLink to="/" className="NavLinks">
+          <Link
+            to="/about"
+            name="about"
+            onClick={(e) => setActive(e.currentTarget.name)}
+            className={`NavLinks ${active === "about" ? "Active" : ""}`}
+          >
             Хто Ми?
-          </NavLink>
+          </Link>
         </li>
         <li className="NavItems">
-          <NavLink to="/" className="NavLinks">
+          <Link
+            to="/"
+            name="contacts"
+            onClick={(e) => setActive(e.currentTarget.name)}
+            className={`NavLinks ${active === "contacts" ? "Active" : ""}`}
+          >
             Контакти
-          </NavLink>
+          </Link>
         </li>
         <li className="NavItems">
-          <NavLink to="/" className="NavLinks">
+          <Link
+            to="/"
+            name="tracts"
+            onClick={(e) => setActive(e.currentTarget.name)}
+            className={`NavLinks ${active === "tracts" ? "Active" : ""}`}
+          >
             Листівки
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </nav>

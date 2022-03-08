@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  sectioncardsinfoitemsone,
-  sectioncardsinfoitemstwo,
-  sectioncardsinfoitemsthree,
-} from "../sectioncardsinfo/sectioncardsinfo";
-import { sectioncardsinfo } from "../sectioncardsinfo/sectioncardsinfo";
+import { sectioncardsinfoitemsone } from "../sectioncardsinfo/sectioncardsinfo";
+// import { sectioncardsinfoitemsonedescription } from "../sectioncardsinfo/sectioncardsinfo";
 const SectionCardsOne = () => {
   return (
     <div className="SectionCardsFlex">
@@ -13,38 +9,26 @@ const SectionCardsOne = () => {
           {sectioncardsinfoitemsone.map(({ title }, idx) => (
             <li className="SectionCardsItems" key={idx}>
               <a className="SectionCardsLinks" href="/">
-                {title}
+                {title.link.item}
               </a>
             </li>
           ))}
-        </ul>
-        {sectioncardsinfo.map(({ description }, idx) => (
-          <p className="SectionCardsP">{description}</p>
-        ))}
-        {sectioncardsinfo.map(({ src, alt }) => (
-          <img className="SectionCardsImages" src={src} alt={alt}></img>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const SectionCardsThree = () => {
-  return (
-    <div className="SectionCardsFlex">
-      <div className="SectionCardsRowOne">
-        <ul className="SectionCardsMenu">
           {sectioncardsinfoitemsone.map(({ title }, idx) => (
             <li className="SectionCardsItems" key={idx}>
               <a className="SectionCardsLinks" href="/">
-                {title}
+                {title.link.item}
               </a>
             </li>
           ))}
         </ul>
+        {/* {sectioncardsinfoitemsonedescription.map(({ description }) => (
+          <p className="SectionCardsP">{description}</p>
+        ))} */}
       </div>
     </div>
   );
 };
 
 export default SectionCardsOne;
+
+// <img className="SectionCardsImages" src={src} alt={alt}></img>

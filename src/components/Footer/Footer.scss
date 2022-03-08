@@ -1,6 +1,4 @@
 .Footer {
-  // position: absolute;
-  // bottom: 0;
   width: 100%;
   background: #012400;
 }
@@ -17,6 +15,7 @@
     max-width: 708px;
     padding: 0 30px;
     margin: 0 auto;
+    flex-direction: column;
   }
 }
 @media (max-width: 468px) {

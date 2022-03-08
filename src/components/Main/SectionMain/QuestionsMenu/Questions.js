@@ -17,7 +17,7 @@ const Questions = () => {
           </li>
         ))}
       </ul>
-      <ul>
+      <ul className="QuestionsMenu">
         {questionsMenuTwo.map(({ question }, idx) => (
           <li className="QuestionMenuItems" key={idx}>
             <a className="QuestionMenuLinks" href="/">
@@ -26,7 +26,7 @@ const Questions = () => {
           </li>
         ))}
       </ul>
-      <ul>
+      <ul className="QuestionsMenu">
         {questionsMenuThree.map(({ question }, idx) => (
           <li className="QuestionMenuItems" key={idx}>
             <a className="QuestionMenuLinks" href="/">

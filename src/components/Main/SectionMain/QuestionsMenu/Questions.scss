@@ -13,6 +13,11 @@
   }
 }
 .QuestionsMenu {
+  @media (max-width: 768px) {
+    display: flex;
+    width: 280px;
+    margin: 0 auto;
+  }
 }
 .QuestionMenuItems {
   display: inline-flex;
@@ -21,7 +26,7 @@
   padding-bottom: 14px;
   transition: all 0.3s ease 0s;
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
   &:before {
     display: block;

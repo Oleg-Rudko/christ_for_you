@@ -1,7 +1,7 @@
 import React from "react";
 
 const FooterCopyright = () => {
-  return <div></div>;
+  return <div className="FooterCopyright">@Copyright</div>;
 };
 
 export default FooterCopyright;

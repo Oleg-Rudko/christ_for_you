@@ -4,11 +4,9 @@ import SectionUs from "./SectionUs/SectionUs";
 
 const Main = () => {
   return (
-    <section className="Section">
-      <div className="SectionContainer">
-        <SectionMain />
-        <SectionUs />
-      </div>
+    <section className="SectionHome">
+      <SectionMain />
+      <SectionUs />
     </section>
   );
 };

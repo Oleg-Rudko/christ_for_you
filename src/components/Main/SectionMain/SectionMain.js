@@ -6,9 +6,11 @@ import CallBack from "./CallBack/CallBack";
 const SectionMain = () => {
   return (
     <div>
-      <Title />
-      <Questions />
-      <CallBack />
+      <section className="SectionContainer">
+        <Title />
+        <Questions />
+        <CallBack />
+      </section>
     </div>
   );
 };

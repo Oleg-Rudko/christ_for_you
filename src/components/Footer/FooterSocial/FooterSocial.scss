@@ -3,9 +3,14 @@
 .FooterSocialMenu {
   display: flex;
   align-items: center;
+  gap: 32px;
+  padding-left: 205px;
 }
-@media (max-width: 320px and 468px and 768px) {
+@media (max-width: 320px and 468px and 768px and 1024px) {
   .FooterSocialFlex {
     padding-top: 41px;
+  }
+  .FooterSocialMenu {
+    padding-left: 0px;
   }
 }

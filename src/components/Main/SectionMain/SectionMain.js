@@ -5,13 +5,13 @@ import CallBack from "./CallBack/CallBack";
 
 const SectionMain = () => {
   return (
-    <div>
-      <section className="SectionContainer">
+    <section className="SectionAbout">
+      <div className="SectionContainerQuestions">
         <Title />
         <Questions />
         <CallBack />
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 export default SectionMain;

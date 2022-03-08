@@ -3,10 +3,12 @@
   font-size: 18px;
   line-height: 21px;
   color: #f4f4f4;
+  padding-left: 420px;
 }
 
 @media (max-width: 320px and 468px and 768px) {
   .FooterCopyright {
     padding-top: 42px;
+    padding-left: 0;
   }
 }

@@ -1,28 +1,28 @@
 .UsTitle {
   display: flex;
+  // justify-content: center;
   align-items: center;
-  text-align: center;
   font-weight: bold;
+  text-align: center;
   font-size: 24px;
   line-height: 28px;
   color: #074205;
-  gap: 30px;
+  gap: 15px;
+  padding-bottom: 70px;
   &:before {
     display: block;
     content: "";
-    width: 100%;
+    flex: 1 1 500px;
     border: 1px solid #c6cdc5;
   }
   &:after {
     display: block;
     content: "";
-    width: 100%;
+    flex: 1 1 500px;
     border: 1px solid #c6cdc5;
   }
 }
-@media (max-width: 768px) {
-}
-@media (max-width: 468px) {
+@media (max-width: 468px and 320px) {
   .UsTitle {
     font-weight: bold;
     font-size: 20px;
@@ -40,17 +40,6 @@
       content: "";
       width: 100%;
       border: 1px solid #c6cdc5;
-    }
-  }
-  @media (max-width: 320px) {
-    .UsTitle {
-      gap: 10px;
-    }
-  }
-  @media (max-width: 320px) {
-    .SectionUsTitle {
-      justify-content: center;
-      display: flex;
     }
   }
 }

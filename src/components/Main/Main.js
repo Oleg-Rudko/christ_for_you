@@ -4,10 +4,10 @@ import SectionUs from "./SectionUs/SectionUs";
 
 const Main = () => {
   return (
-    <section className="SectionHome">
+    <div className="SectionHome">
       <SectionMain />
       <SectionUs />
-    </section>
+    </div>
   );
 };
 

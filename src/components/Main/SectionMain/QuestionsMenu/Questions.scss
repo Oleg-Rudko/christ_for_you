@@ -15,7 +15,8 @@
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin: 0 auto;
     &:nth-child(2) {
       display: none;
     }
@@ -23,14 +24,13 @@
       display: none;
     }
     &:nth-child(1) {
-      padding-top: 40px;
+      padding-top: 30px;
     }
   }
 }
 .QuestionMenuItems {
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding-bottom: 14px;
   transition: all 0.3s ease 0s;
   &:hover {

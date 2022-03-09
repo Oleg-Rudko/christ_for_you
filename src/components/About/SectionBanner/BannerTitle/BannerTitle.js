@@ -1,7 +1,7 @@
 const BannerTitle = () => {
   return (
     <div>
-      <h1>Хто Ми?</h1>
+      <h1 className="BannerTitle">Хто Ми?</h1>
     </div>
   );
 };

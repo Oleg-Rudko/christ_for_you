@@ -1,13 +1,12 @@
 import React from "react";
-
-import SectionWho from "./SectionWho/SectionWho";
 import SectionBanner from "./SectionBanner/SectionBanner";
+import SectionBelieve from "./SectionBelieve/SectionBelieve";
 
 const About = () => {
   return (
     <div className="SectionAbout">
       <SectionBanner />
-      <SectionWho />
+      <SectionBelieve />
     </div>
   );
 };

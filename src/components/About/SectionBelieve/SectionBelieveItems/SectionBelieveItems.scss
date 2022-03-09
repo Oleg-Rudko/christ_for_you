@@ -1,0 +1,165 @@
+.SectionBelieveItems {
+  display: flex;
+}
+.SectionBelieveItemsContainer {
+  max-width: 1062px;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    max-width: 768px;
+  }
+  @media (max-width: 375px) {
+    max-width: 375px;
+  }
+}
+.BelieveMenuOne {
+  display: flex;
+  counter-reset: list;
+  list-style-type: none;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.BelieveMenuOneItems {
+  display: flex;
+  align-items: center;
+  padding: 19px 0px 19px 15px;
+  background: #cde6cc;
+  @media (max-width: 768px) {
+    padding: 5.5px 0px 5.5px 10px;
+  }
+  &::before {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    border-radius: 50%;
+    background: #fefffe;
+    counter-increment: list;
+    content: counter(list) ". ";
+    @media (max-width: 768px) {
+      padding: 8px 10px 8px 10px;
+    }
+  }
+  &:nth-child(1) {
+    width: 358px;
+    margin: 0px 115px 0px 0px;
+    @media (max-width: 768px) {
+      width: 325px;
+      margin: 0px 0px 12px 0px;
+    }
+  }
+  &:nth-child(2) {
+    width: 358px;
+    @media (max-width: 768px) {
+      width: 325px;
+      margin: 0px 0px;
+    }
+  }
+}
+.BelieveMenuTwo {
+  display: flex;
+  counter-reset: none;
+  list-style-type: none;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.BelieveMenuTwoItems {
+  display: flex;
+  align-items: center;
+  padding: 19px 0px 19px 15px;
+  background: #cde6cc;
+  @media (max-width: 768px) {
+    padding: 5.5px 0px 5.5px 10px;
+  }
+  &::before {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    border-radius: 50%;
+    background: #fefffe;
+    counter-increment: list;
+    content: counter(list) ". ";
+    @media (max-width: 768px) {
+      padding: 8px 10px 8px 10px;
+    }
+  }
+  &:nth-child(1) {
+    width: 358px;
+    margin: 50px 115px 0px 118px;
+    @media (max-width: 768px) {
+      width: 325px;
+      margin: 12px 0px 0px 0px;
+    }
+  }
+  &:nth-child(2) {
+    width: 358px;
+    margin: 50px 0px 0px 0px;
+    @media (max-width: 768px) {
+      width: 325px;
+      margin: 12px 0px 12px 0px;
+    }
+  }
+}
+.BelieveMenuThree {
+  display: flex;
+  counter-reset: none;
+  list-style-type: none;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.BelieveMenuThreeItems {
+  padding: 15px 0px 15px 15px;
+  display: flex;
+  align-items: center;
+  padding: 19px 0px 19px 15px;
+  background: #cde6cc;
+  @media (max-width: 768px) {
+    padding: 5.5px 0px 5.5px 10px;
+  }
+  &::before {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    border-radius: 50%;
+    background: #fefffe;
+    counter-increment: list;
+    content: counter(list) ". ";
+    @media (max-width: 768px) {
+      padding: 8px 10px 8px 10px;
+    }
+  }
+  &:nth-child(1) {
+    width: 358px;
+    margin: 50px 115px 0px 168px;
+    @media (max-width: 768px) {
+      width: 325px;
+      margin: 0px 0px 12px 0px;
+    }
+  }
+  &:nth-child(2) {
+    width: 358px;
+    margin: 50px 0px 0px 0px;
+    @media (max-width: 768px) {
+      width: 325px;
+      margin: 0px 0px;
+    }
+  }
+}
+
+.BelieveMenuSpan {
+  padding-left: 10px;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #032102;
+  @media (max-width: 768px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.BannerImage {
+  @media (max-width: 768px) {
+    width: 335px;
+    height: 260px;
+  }
+}
+.BannerImageBlock {
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+}

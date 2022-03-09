@@ -1,4 +1,4 @@
-.UsTitle {
+.BelieveTitle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@
   }
 }
 @media (max-width: 468px and 375px) {
-  .UsTitle {
+  .BelieveTitle {
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
@@ -35,13 +35,13 @@
     &:before {
       display: block;
       content: "";
-      width: 110px;
+      width: 65px;
       border: 1px solid #c6cdc5;
     }
     &:after {
       display: block;
       content: "";
-      width: 110px;
+      width: 65px;
       border: 1px solid #c6cdc5;
     }
   }

@@ -1,0 +1,15 @@
+.BannerDescriptionBlock {
+}
+.BannerDescription {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7e8e7d;
+  padding: 20px 0 50px 0;
+}
+.BannerDescription {
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 10px 0 0px 0;
+  }
+}

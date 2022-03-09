@@ -1,8 +1,16 @@
+.CallBackBlockFlex {
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+}
 .CallBackBlock {
   display: inline-block;
   background: #246522;
   padding: 11.5px 96.5px;
-  margin-top: 80px;
+  @media (max-width: 468px) {
+    width: 235px;
+  }
 }
 .CallBackNumber {
   font-weight: 500;

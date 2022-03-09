@@ -5,8 +5,12 @@
   margin: 0 auto;
   max-width: 1160px;
   padding: 0px 0px 100px 0;
-}
-.SectionCardsColumn {
-  display: flex;
-  flex-direction: column;
+  @media (max-width: em(768)) {
+    max-width: 708px;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: em(320)) {
+    max-width: 320px;
+  }
 }

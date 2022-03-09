@@ -1,0 +1,66 @@
+.SectionCardsRow {
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.SectionCardsFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &:not(:last-child) {
+    padding: 0px 0px 60px 0;
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+.CardsMenu {
+  flex: 0 0 170px;
+  @media (max-width: 768px) {
+    flex: 0 0 0px;
+  }
+  @media (max-width: 768px) {
+    order: 2;
+    padding-bottom: 20px;
+  }
+}
+.CardsMenuItems {
+}
+.CardsMenuLinks {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #cde6cc;
+  &:hover {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #074205;
+  }
+}
+
+.SectionCardsDescription {
+  width: 356px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #545454;
+  @media (max-width: 768px) {
+    order: 3;
+  }
+}
+.SectionCardsImages {
+  @media (max-width: 768px) {
+    width: 335px;
+    height: 274px;
+  }
+  @media (max-width: 768px) {
+    order: 1;
+    padding-bottom: 20px;
+  }
+}

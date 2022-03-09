@@ -1,7 +1,7 @@
 import CallBackIcon from "../../../Footer/FooterCall/FooterIcons/FooterIconCall.svg";
 const CallBack = () => {
   return (
-    <div>
+    <div className="CallBackBlockFlex">
       <div className="CallBackBlock">
         <a href="/" className="CallBackNumber">
           <img

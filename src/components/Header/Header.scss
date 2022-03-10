@@ -8,6 +8,15 @@
   display: flex;
   align-items: center;
 }
+
+.BurgerHidden {
+  display: none;
+}
+
+.BurgerVisible {
+  display: block;
+}
+
 @media (max-width: 768px) {
   .HeaderContainer {
     max-width: 708px;

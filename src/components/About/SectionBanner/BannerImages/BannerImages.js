@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImage from "./BannerImage/BannerImage.svg";
+import BannerImage from "./BannerImage/BannerImage.webp";
 const BannerImages = () => {
   return (
     <div className="BannerImageBlock">

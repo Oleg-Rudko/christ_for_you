@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Nav/Nav";
 import Logo from "./Logo/Logo";
 import Order from "./Order/Order";
 import Hamburger from "./HamburgerMenu/HamburgerMenu";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="Header">
       <div className="HeaderContainer">
@@ -15,8 +17,14 @@ const Header = () => {
         <div className="OrderHidden">
           <Order />
         </div>
+        <div className={`${isOpen ? "BurgerVisible" : "BurgerHidden"}`}>
+          new Nav
+        </div>
+        <div className={`${isOpen ? "BurgerVisible" : "BurgerHidden"}`}>
+          new Order
+        </div>
         <div className="HamburgerHidden">
-          <Hamburger />
+          <Hamburger isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </div>
     </header>

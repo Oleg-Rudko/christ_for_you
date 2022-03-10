@@ -1,0 +1,56 @@
+.BurgerHidden {
+  position: absolute;
+  visibility: hidden;
+  top: -100%;
+  transition: all 0.3s ease 0s;
+}
+
+.BurgerVisible {
+  position: absolute;
+  visibility: visible;
+  top: 0;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  height: 150vh;
+  background: rgb(255, 255, 255);
+}
+.BurgerTitle {
+  padding-top: 23px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #074205;
+}
+.NavBurger {
+  padding: 60px 20px;
+}
+.NavBurgerMenu {
+}
+.BurgerMenuItems {
+  border-bottom: 1px solid #b0b0b0;
+  padding-bottom: 10px;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+.BurgerMenuLinks {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.BurgerMenuLinks {
+  transition: all 0.2s ease 0s;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+}
+.ActiveBurger {
+  font-weight: 500;
+}

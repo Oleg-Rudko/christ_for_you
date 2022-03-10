@@ -2,9 +2,10 @@
   display: inline-block;
   padding-right: 79px;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .Logo {
-    padding-right: 15px;
+    flex: 1 1 auto;
+    padding-right: 69px;
   }
   .LogoSvg {
     width: 230px;

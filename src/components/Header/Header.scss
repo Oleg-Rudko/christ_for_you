@@ -1,3 +1,13 @@
+body {
+  // Скролл заблокирован
+  .lock & {
+    overflow: hidden;
+    touch-action: none;
+  }
+  // Сайт загружен
+  .loaded & {
+  }
+}
 .Header {
   width: 100%;
 }
@@ -9,18 +19,10 @@
   align-items: center;
 }
 
-.BurgerHidden {
-  display: none;
-}
-
-.BurgerVisible {
-  display: block;
-}
-
 @media (max-width: 768px) {
   .HeaderContainer {
     max-width: 708px;
-    padding: 15 20px;
+    padding: 15px 0px;
     margin: 0 auto;
   }
 }
@@ -33,15 +35,14 @@
 }
 @media (max-width: 375px) {
   .HeaderContainer {
-    max-width: 3335px;
-    padding: 15px 15px;
+    max-width: 335px;
+    padding: 15px 20px;
     margin: 0 auto;
   }
 }
 @media (max-width: 768px) {
   .HeaderContainer {
     display: flex;
-    justify-content: space-between;
   }
 
   .NavHidden {
@@ -60,5 +61,6 @@
 @media (max-width: 768px) {
   .HamburgerHidden {
     display: block;
+    z-index: 5;
   }
 }

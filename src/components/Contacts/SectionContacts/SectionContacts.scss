@@ -1,0 +1,17 @@
+.SectionContacts {
+  width: 100%;
+}
+.SectionContactsContainer {
+  max-width: 855px;
+  margin: 0 auto;
+  padding: 82px 0px 105px 0px;
+  @media (max-width: 768px) {
+    max-width: 768px;
+    padding: 66px 20px 70px 20px;
+    margin: 0px 0px;
+  }
+  @media (max-width: 375px) {
+    max-width: 335px;
+    padding: 66px 20px 70px 20px;
+  }
+}

@@ -1,0 +1,13 @@
+.SectionContactsTitleBlock {
+}
+.SectionContactsTitle {
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #074205;
+  padding-bottom: 40px;
+  @media (max-width: 768px) {
+    padding-bottom: 30px;
+  }
+}

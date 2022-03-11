@@ -1,6 +1,11 @@
 import React from "react";
+import SectionContacts from "./SectionContacts/SectionContacts";
 const Contacts = () => {
-  return <div>Contacts</div>;
+  return (
+    <div className="Contacts">
+      <SectionContacts />
+    </div>
+  );
 };
 
 export default Contacts;

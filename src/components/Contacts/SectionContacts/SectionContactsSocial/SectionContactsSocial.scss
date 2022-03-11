@@ -1,0 +1,63 @@
+.SectionContactsSocial {
+}
+.SectionContactsFlex {
+}
+.ContactsMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @media (max-width: 768px) {
+    gap: 35px;
+  }
+  @media (max-width: 375px) {
+  }
+}
+.ContactsMenuItems {
+  display: inline-flex;
+  align-items: center;
+}
+.ContactsMenuCircle {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 50%;
+  padding: 9px;
+  background: #eaeee9;
+  margin-right: 10px;
+}
+.ContactsMenuIcons {
+}
+.ContactsMenuLinks {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.SectionContactsParagraph {
+  padding-top: 80px;
+  text-align: center;
+  width: 282px;
+  margin: 0 auto;
+}
+.SectionContactsP {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #074205;
+}
+.SectionContactsZoom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 37px;
+}
+.SectionContactsImage {
+  border-radius: 50%;
+  padding: 6px;
+  background: #eaeee9;
+  margin-right: 10px;
+}
+.ZoomLink {
+}

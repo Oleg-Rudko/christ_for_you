@@ -8,14 +8,20 @@
   justify-content: space-between;
   flex-wrap: wrap;
   @media (max-width: 768px) {
-    gap: 35px;
+    // justify-content: center;
   }
   @media (max-width: 375px) {
   }
 }
 .ContactsMenuItems {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  @media (max-width: 768px) {
+    width: 120px;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
 }
 .ContactsMenuCircle {
   display: inline-flex;

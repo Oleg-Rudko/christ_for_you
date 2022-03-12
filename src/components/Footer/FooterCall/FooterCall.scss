@@ -15,7 +15,10 @@
   font-weight: 500;
   justify-content: center;
   line-height: 19px;
-  padding: 11.5px 64.5px;
+  padding: 12px 65px;
+  @media (max-width: 768px) {
+    padding: 12px 10px;
+  }
 }
 .CallIconSvg {
   padding-right: 15px;

@@ -1,5 +1,5 @@
 .SectionCardsRow {
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -12,7 +12,7 @@
   &:not(:last-child) {
     padding: 0px 0px 60px 0;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -20,10 +20,10 @@
 }
 .CardsMenu {
   flex: 0 0 170px;
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     flex: 0 0 0px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     order: 2;
     padding-bottom: 20px;
   }
@@ -50,16 +50,16 @@
   font-size: 17px;
   line-height: 20px;
   color: #545454;
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     order: 3;
   }
 }
 .SectionCardsImages {
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     width: 335px;
     height: 274px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     order: 1;
     padding-bottom: 20px;
   }

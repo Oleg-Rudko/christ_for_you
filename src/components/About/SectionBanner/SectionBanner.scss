@@ -4,11 +4,11 @@
 .SectionBannerContainer {
   margin: 0 auto;
   max-width: 1160px;
-  padding: 100px 0px 100px 0;
+  padding: 100px 15px 100px 15px;
   display: flex;
-  @media (max-width: 768px) {
-    padding: 66px 0px 60px 0;
-    max-width: 708px;
+  @media (max-width: 870px) {
+    padding: 66px 15px 60px 15px;
+    max-width: 768px;
     flex-wrap: wrap;
     justify-content: center;
   }

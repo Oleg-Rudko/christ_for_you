@@ -1,5 +1,5 @@
 .CallBackBlockFlex {
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     display: flex;
     justify-content: center;
   }
@@ -24,16 +24,14 @@
 .CallBackSvg {
   padding-right: 15px;
 }
-@media (max-width: 768px) {
-}
-@media (max-width: 468px) {
+@media (max-width: 870px) {
   .CallBackBlock {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background: #246522;
-    padding: 11.5px 50.5px;
+    padding: 12px 50px;
     margin-top: 40px;
   }
 }

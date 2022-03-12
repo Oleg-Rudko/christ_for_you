@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [active, setActive] = useState("main");
+  const onHandleNavigation = ({ currentTarget: { name } }) => setActive(name);
 
   return (
     <nav className="Nav">
@@ -12,7 +13,7 @@ const Nav = () => {
             to="/"
             className={`NavLinks ${active === "main" ? "Active" : ""}`}
             name="main"
-            onClick={(e) => setActive(e.currentTarget.name)}
+            onClick={onHandleNavigation}
           >
             Головна
           </Link>
@@ -21,8 +22,8 @@ const Nav = () => {
           <Link
             to="/about"
             name="about"
-            onClick={(e) => setActive(e.currentTarget.name)}
             className={`NavLinks ${active === "about" ? "Active" : ""}`}
+            onClick={onHandleNavigation}
           >
             Хто Ми?
           </Link>
@@ -31,8 +32,8 @@ const Nav = () => {
           <Link
             to="/contacts"
             name="contacts"
-            onClick={(e) => setActive(e.currentTarget.name)}
             className={`NavLinks ${active === "contacts" ? "Active" : ""}`}
+            onClick={onHandleNavigation}
           >
             Контакти
           </Link>
@@ -41,8 +42,8 @@ const Nav = () => {
           <Link
             to="/tracts"
             name="tracts"
-            onClick={(e) => setActive(e.currentTarget.name)}
             className={`NavLinks ${active === "tracts" ? "Active" : ""}`}
+            onClick={onHandleNavigation}
           >
             Листівки
           </Link>

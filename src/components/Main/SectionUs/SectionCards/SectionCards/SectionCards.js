@@ -1,5 +1,5 @@
 import React from "react";
-import { sectionCardsInfo } from "../sectioncardsinfo/sectionCardsInfo";
+import { sectionCardsInfo } from "../sectioncardsinfo/sectioncardsinfo";
 
 const SectionCards = () => {
   return (

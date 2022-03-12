@@ -1,18 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import CallbackForm from "../../CallbackForm";
 import CallSvg from "./FooterIcons/FooterIconCall.svg";
+
 const FooterCall = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="FooterCallBlock">
-      <a href="/" className="FooterCallNumber">
+      <div className="FooterCallNumber" onClick={() => setIsOpen(!isOpen)}>
         <img
           width="22px"
           height="22px"
           className="CallIconSvg"
           src={CallSvg}
           alt="CallIconSvg"
-        ></img>
+        />
         Дізнатись телефон
-      </a>
+      </div>
+      <CallbackForm isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );
 };

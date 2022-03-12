@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="Header">
       <div className={`${isOpen ? "BurgerVisible" : "BurgerHidden"}`}>
-        <NavBurgerMenu />
+        <NavBurgerMenu setIsOpen={setIsOpen} />
         <NavBurgerOrder />
       </div>
       <div className="HeaderContainer">

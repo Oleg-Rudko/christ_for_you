@@ -4,7 +4,14 @@ import HamburgerMenu from "react-hamburger-menu";
 const Hamburger = ({ isOpen, setIsOpen }) => (
   <HamburgerMenu
     isOpen={isOpen}
-    menuClicked={() => setIsOpen(!isOpen)}
+    menuClicked={() => {
+      setIsOpen(!isOpen);
+      if (!isOpen) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "";
+      }
+    }}
     width={30}
     height={18}
     strokeWidth={1}

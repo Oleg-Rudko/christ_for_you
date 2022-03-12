@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-const NavBurgerMenu = () => {
+const NavBurgerMenu = ({ setIsOpen }) => {
   const [active, setActive] = useState("main");
+
+  const onHandleNavigation = ({ currentTarget: { name } }) => {
+    setActive(name);
+    setIsOpen(false);
+  };
+
   return (
     <div>
       <div className="BurgerTitle">Меню</div>
@@ -10,7 +16,7 @@ const NavBurgerMenu = () => {
           <li className="BurgerMenuItems">
             <Link
               to="/"
-              onClick={(e) => setActive(e.currentTarget.name)}
+              onClick={onHandleNavigation}
               name="mainpage"
               className={`BurgerMenuLinks ${
                 active === "mainpage" ? "ActiveBurger" : ""
@@ -23,7 +29,7 @@ const NavBurgerMenu = () => {
             <Link
               to="/about"
               name="about-who"
-              onClick={(e) => setActive(e.currentTarget.name)}
+              onClick={onHandleNavigation}
               className={`BurgerMenuLinks ${
                 active === "about-who" ? "ActiveBurger" : ""
               }`}
@@ -35,7 +41,7 @@ const NavBurgerMenu = () => {
             <Link
               to="/contacts"
               name="contacts-us"
-              onClick={(e) => setActive(e.currentTarget.name)}
+              onClick={onHandleNavigation}
               className={`BurgerMenuLinks ${
                 active === "contacts-us" ? "ActiveBurger" : ""
               }`}
@@ -47,7 +53,7 @@ const NavBurgerMenu = () => {
             <Link
               to="/tracts"
               name="tractsto"
-              onClick={(e) => setActive(e.currentTarget.name)}
+              onClick={onHandleNavigation}
               className={`BurgerMenuLinks ${
                 active === "tractsto" ? "ActiveBurger" : ""
               }`}

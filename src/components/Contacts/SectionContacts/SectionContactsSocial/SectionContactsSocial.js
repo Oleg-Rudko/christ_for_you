@@ -6,13 +6,13 @@ const SectionContactsSocial = () => {
     <div className="SectionContactsSocial">
       <div className="SectionContactsFlex">
         <ul className="ContactsMenu">
-          {sectionContactsSocialMap.map(({ links, icon, alt }) => (
-            <li className="ContactsMenuItems">
+          {sectionContactsSocialMap.map(({ links, icon, alt }, idx) => (
+            <li className="ContactsMenuItems" key={idx}>
               <div className="ContactsMenuCircle">
                 <img className="ContactsMenuIcons" src={icon} alt={alt}></img>
               </div>
-              {links.map(({ href, name }) => (
-                <a href={href} className="ContactsMenuLinks">
+              {links.map(({ href, name }, i) => (
+                <a href={href} className="ContactsMenuLinks" key={i}>
                   {name}
                 </a>
               ))}

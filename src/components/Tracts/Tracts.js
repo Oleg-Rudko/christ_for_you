@@ -1,6 +1,5 @@
-import React from "react";
 const Tracts = () => {
-  return <div>Tracts</div>;
+  return <>Tracts</>;
 };
 
 export default Tracts;

@@ -1,20 +1,21 @@
 .FooterCallBlock {
-  display: inline-block;
   background: #246522;
-  padding: 11.5px 64.5px;
+  cursor: pointer;
+  display: inline-block;
   @media (max-width: 768px) {
     padding-right: 45px;
     padding-left: 45px;
   }
 }
 .FooterCallNumber {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  align-items: center;
   color: #fff;
   display: inline-flex;
+  font-size: 16px;
+  font-weight: 500;
   justify-content: center;
-  align-items: center;
+  line-height: 19px;
+  padding: 11.5px 64.5px;
 }
 .CallIconSvg {
   padding-right: 15px;

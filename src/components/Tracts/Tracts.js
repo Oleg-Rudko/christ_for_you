@@ -1,5 +1,10 @@
+import SectionTractsItems from "./SectionTractsItems/SectionTractsItems";
 const Tracts = () => {
-  return <>Tracts</>;
+  return (
+    <div className="SectionTracts">
+      <SectionTractsItems />
+    </div>
+  );
 };
 
 export default Tracts;

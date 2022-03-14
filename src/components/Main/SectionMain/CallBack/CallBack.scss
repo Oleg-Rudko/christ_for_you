@@ -5,22 +5,25 @@
   }
 }
 .CallBackBlock {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   background: #246522;
-  padding: 11.5px 96.5px;
+  padding: 11px 96px;
+  color: #fff;
   @media (max-width: 468px) {
     width: 235px;
   }
 }
-.CallBackNumber {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #fff;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
+// .CallBackNumber {
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 19px;
+//   color: #fff;
+//   display: inline-flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 .CallBackSvg {
   padding-right: 15px;
 }

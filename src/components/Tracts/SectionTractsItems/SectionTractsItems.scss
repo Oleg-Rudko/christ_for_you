@@ -1,0 +1,68 @@
+.SectionTractsItems {
+}
+.SectionTractsContainer {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 50px 0px;
+  @media (max-width: 870px) {
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 375px) {
+    max-width: 375px;
+  }
+}
+.TractsMenuOne {
+  display: flex;
+  align-items: center;
+  @media (max-width: 870px) {
+    flex-direction: column;
+  }
+}
+.TractsMenuTwo {
+  display: flex;
+  align-items: center;
+  @media (max-width: 870px) {
+    flex-direction: column;
+  }
+}
+.TractsMenuOneItems {
+  width: 275px;
+  height: 255px;
+  background: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+  margin-bottom: 30px;
+  @media (max-width: 870px) {
+    &:not(:last-child) {
+      margin-right: 0px;
+    }
+  }
+}
+.TractsMenuTwoItems {
+  width: 275px;
+  height: 255px;
+  background: #eeeeee;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+  @media (max-width: 870px) {
+    &:not(:last-child) {
+      margin-right: 0px;
+      margin-bottom: 30px;
+    }
+  }
+}
+.TractsMenuLinks {
+}
